@@ -38,7 +38,7 @@ def reformat_languages(languages)
     data.each do |language, detail|
     new_hash[language] = detail
   binding.pry
-   # if new_hash[language].key?(:style)
+   #if new_hash[language].key?(:style)
    # new_hash[language][:style] = []
    # new_hash[language][:style] << style
  # else
