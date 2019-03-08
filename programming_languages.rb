@@ -39,6 +39,7 @@ def reformat_languages(languages)
     new_hash[language] = detail
     if !new_hash[language].key?(:style)
     new_hash[language][:style] = []
+    new_hash[language][:style] << style
   else
     new_hash[language][:style] << style
     
